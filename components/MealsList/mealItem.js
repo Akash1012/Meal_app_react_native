@@ -7,7 +7,7 @@ import {
   Platform,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import MealDetails from "./mealDetails";
+import MealDetails from "../mealDetails";
 
 function MealItem({
   title,
@@ -19,8 +19,6 @@ function MealItem({
 }) {
   const navigation = useNavigation();
   function selectMealItemHandler() {
-    // NEW
-    // console.log("call", navigation);
     navigation.navigate("Meal Detail", {
       mealId: id,
     });
