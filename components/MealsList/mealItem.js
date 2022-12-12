@@ -46,13 +46,6 @@ function MealItem({
             complexity={complexity}
             affordability={affordability}
           />
-          {/* <View style={styles.details}>
-            <Text style={styles.detailsItem}>{duration}M</Text>
-            <Text style={styles.detailsItem}>{complexity.toUpperCase()}</Text>
-            <Text style={styles.detailsItem}>
-              {affordability.toUpperCase()}
-            </Text>
-          </View> */}
         </View>
       </Pressable>
     </View>
